@@ -1,0 +1,36 @@
+#include "stdafx.h"
+#include <iostream>
+#include <cstdlib>
+using namespace std;
+
+
+int main()
+{
+	// 1-ая задача "Hello"
+	std::cout << "HELLO!!!" << endl;
+	cout << "\n";
+	// 2-ая задача "Square"
+
+	cout << "\t aaaaaaa" << endl;
+	cout << "\t a     a" << endl;
+	cout << "\t a     a" << endl;
+	cout << "\t a     a" << endl;
+	cout << "\t aaaaaaa" << endl;
+	cout << "\n";
+	// 3-ья задача "Anketa"
+
+	setlocale(LC_ALL, "Russian");
+
+	cout << "       Фамилия: Лисицина" << endl;
+	cout << "\t   Имя: Анастасия" << endl;
+	cout << "      Отчество: Романовна" << endl;
+	cout << "\t   Пол: Женский" << endl;
+	cout << " Дата рождения: 07.06.2004" << endl;
+	cout << "\t Адрес: Орловская 17а" << endl;
+	cout << "Номер телефона: 8800-555-3535" << endl;
+	cout << "   Место учёбы: ДНУ им. Олеся Гончара" << endl;
+	cout << "\t Класс: ПА-21-1" << endl;
+	cout << "\t Хобби: Рисовать" << endl;
+
+	system("pause");
+}
